@@ -6,6 +6,8 @@
 }
 *{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box; /**conta tamanho a partir da borda**/
 }
 body {
     font-family: 'DM Sans';
@@ -19,23 +21,40 @@ body {
 }
 header{
     width: 37.5rem;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4.1rem;
 }
 h4 {
     font-size: 1.4rem;
     color: var(--primary-color);
+    margin-bottom: 1.6rem;
 }
 h1 {
     font-size: 3.4rem;
     color: var(--headline);
     line-height: 130%;
+    margin-bottom: 2.4rem;
 }
 p{
     font-size: 1.8rem;
-    color: var(--paragraph)
+    color: var(--paragraph);
+    margin-bottom: 3.2rem;
 }
 button {
+    display: flex;
+    align-items: center; /**alinhamento horizontal**/
+    justify-content: center; /**alinhamento vertical**/
+    height: 6.2rem;
+    width: 26.3rem;
     background-color: var(--primary-color);
+    color: #ffff;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 3.6rem;
+    margin-left: auto;
+    margin-right: auto;
     border: none;
-    border-radius: 0.8rem;
+    border-radius: 4rem; 
 }
